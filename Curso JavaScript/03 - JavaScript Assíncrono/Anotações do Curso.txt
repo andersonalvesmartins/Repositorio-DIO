@@ -1,0 +1,49 @@
+Curso de JavaScript - Digital Innovation One
+
+JAVASCRIPT ASSÍNCRONO
+
+*****     ASSÍNCRONICIDADE     ************************************************************
+
+DEFINIÇÃO
+    - Que não ocorre no mesmo momento.
+    - JS por padrão roda de forma síncrona, uma coisa de cada vez. No cliente e no servidor.
+    - Ao criar processos assíncronos, podemos executar duas coisas ao mesmo tempo, e usar o 
+    servidor pra processar algo enquanto espera uma ação do cliente por exemplo.
+PROMISES
+    - Promises é um tipo de objeto usado para processamento assíncrono.
+    - Inicialmente, o valor de um objeto promises é desconhecido. 
+    - Esse objeto pode ser resolvido .then() ou rejeitado catch().
+    - Ela pode ter 3 estados: PENDING - FULFILLED - REJECTED
+ASYNC / AWAIT
+    - Duas palavras reservadas que servem para:
+        ASYNC: definir o tipo de função que será resolvida assincronamente.
+        AWAIT: é executado para dar o retorno da função assíncrona.
+    - //Estrutura do objeto assíncrono PROMISE que retorna o 'resolve' depois de 2 segundos.
+        ASYNC function resolvePromise() {
+            const myPromise = new Promise((resolve,reject) => {
+                window.setTimeout(() => {
+                    resolve('Resolvida');
+                },2000);
+            })
+
+            //Esse AWAIT é executado enquanto aguarda a resposta do objeto PROMISES
+            //Quando é resolvida ele passa em cada um desses then
+            const resolved = await myPromise
+                    .then((result) => result + ' passando pelo then') //É possível usar o try catch para esse tratamento
+                    .then((result) => result + ' agora acabou!')      //Colocando os .then no TRY e o .catch no CATCH
+                    .catch((err) => console.log(err.message));
+                return resolved;
+        }
+
+*****     APIs e FETCH     *************************************************************
+
+APIs (Application Programming Interface)
+    - É uma forma de intermediar resultados de duas aplicações.
+    - Pode ser acessada por meio de uma URL.
+    - JSON - JavaScript Object Notation, arquivo tipo XML que normalmente é usado na comunicação com APIs.
+FETCH
+    - É um MÉTODO usado para requisitar algo de uma API.
+    - Devemos passar como paramêtros nesse método, a URL da API e as opções.
+    - Ao receber o retorno desse função devemos converter o resultado para JSON - resultado.json()
+    - O retorno desse método é um objeto do tipo PROMISE, então é preciso declarar o AWAIT.
+    - Pode ser usado para operações de Banco de Dados por exemplo: POST, GET, PUT, DELETE;
