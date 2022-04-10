@@ -335,7 +335,7 @@ function start() { // Inicio da função start()
         $("#inimigo2").remove();
         $("#amigo").remove();
         $("#disparo").remove();
-        
+        podeAtirar=true; 
         $("#fundoGame").append("<div id='fim'></div>");
         
         pontos = pontos + ((salvos - perdidos)*1000);
