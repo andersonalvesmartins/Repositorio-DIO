@@ -4,7 +4,7 @@ This project has an educative purpose and it simulates the famous memory game ca
 The game consists in four panels (red, green, blue and yellow) thats bright and sound one-by-one in a ramdom sequence.
 The sequence starts with ONE color and the player must to replicate the sequence. 
 - If the user succeeds, the series becomes progressively longer and more complex. 
-- If the user fails  the game is over;
+- If the user fails the game is over;
 
 
 ## Stack used 💻
