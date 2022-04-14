@@ -1,4 +1,3 @@
-![Logo](https://www.casasbahia-imagens.com.br/brinquedos/Jogos/13460234/998302829/jogo-genius-estrela-13460234.jpg)
 # Game Genius (PT-BR) / Simon (EN) 🎮
 
 This project has an educative purpose and it simulates the famous memory game called Genius / Simon.
