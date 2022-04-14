@@ -31,3 +31,4 @@ The sequence starts with ONE color and the player must to replicate the sequence
 
 - [@gabrielapinheiro](https://www.github.com/SpruceGabriela)
 - [@inkasadev](https://www.github.com/inkasadev)
+>>>>>>> dc24a9a9e39fd8e20ee44ae504caa38b8542a407
