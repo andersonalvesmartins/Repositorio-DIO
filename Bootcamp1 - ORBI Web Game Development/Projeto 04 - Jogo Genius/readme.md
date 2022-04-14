@@ -1,11 +1,10 @@
-![Logo](https://www.casasbahia-imagens.com.br/brinquedos/Jogos/13460234/998302829/jogo-genius-estrela-13460234.jpg)
 # Game Genius (PT-BR) / Simon (EN) 🎮
 
 This project has an educative purpose and it simulates the famous memory game called Genius / Simon.
 The game consists in four panels (red, green, blue and yellow) thats bright and sound one-by-one in a ramdom sequence.
 The sequence starts with ONE color and the player must to replicate the sequence. 
 - If the user succeeds, the series becomes progressively longer and more complex. 
-- If the user fails  the game is over;
+- If the user fails the game is over;
 
 
 ## Stack used 💻
