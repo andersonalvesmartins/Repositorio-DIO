@@ -7,14 +7,41 @@
 </head>
 <body>
     <div class="main-game">
+        
         <div class="genius">
+            
             <div class="blue" id="azul"></div>
             <div class="yellow" id="amarelo"></div>
             <div class="red" id="vermelho"></div>
             <div class="green" id="verde"></div>
-        </div>
-    </div>
 
-    <script src="script.js"></script>
+            <div class="gameTitle" id="gameTitle">
+                <h1 class='titulo'>Genius<span class="reg">®</span></h1>
+                <div class="gui">
+                    <div class="scoreScreen" id="telaPontos">00</div>
+                    <div class="scoreScreen" id="telaRecord">00</div>
+                    <div class="pontos">PONTOS</div>
+                    <div class="pontos">RECORD</div>
+                    <div class="userButton" id="botao">INICIAR</div>
+                </div> <!-- .GUI game user interface -->
+            </div> <!-- .game Title-->
+        
+        </div> <!-- .genius -->
+        
+    </div> <!-- .main-game-->
+
+    <footer>
+        @andersonalvesmartins
+    </footer>
+    
+    <!-- Sons do jogo !-->
+    <audio src="sounds/win.mp3" preload="auto" id="somVitoria"></audio>
+    <audio src="sounds/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="sounds/loose.mp3" preload="auto" id="somErrou"></audio>
+    <audio src="sounds/200.wav" preload="auto" id="somVermelho"></audio>
+    <audio src="sounds/300.wav" preload="auto" id="somAzul"></audio>
+    <audio src="sounds/400.wav" preload="auto" id="somVerde"></audio>
+    <audio src="sounds/500.wav" preload="auto" id="somAmarelo"></audio>
+    <script src="genius.js"></script>
 </body>
 </html>
