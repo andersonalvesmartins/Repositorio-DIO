@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SpaceShooter</title>
+</head>
+<body>
+    <!-- Game area !-->
+    <div class="game-area"  id="game-area">
+        <div class="gameDisplay">
+            <div class="points" id="points">Score:<br>0 pts</div>
+            <div class="record" id="record">Record:<br>0 pts</div>
+            <div class="lives" id="lives"></div>
+        </div>
+        <div class="gameMenu">
+            <div class="status" id="status">NEW GAME</div>
+            <div class="instructions" id="instructions">Your mission: Kill as many enemies as you can. The universe count on you, Space Ranger!</br></br>Use arrows left and right to move and Space to shoot.</div>
+            <button class="btnStart" id="btnStart">START</button>
+        </div>
+        <div class="player" id="player">
+            <div class="player-exaust" id="player-exaust" ></div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.linkedin.com/in/anderson-martins-8037a546/">@andersonalvesmartins</a> 
+    </div>
+
+    <!-- Sons do jogo !-->
+    <audio src="/sounds/start.wav" preload="auto" id="sndStart"></audio>
+    <audio src="/sounds/explosion.mp3" preload="auto" id="sndExplosion"></audio>
+    <audio src="/sounds/DST-CyberOps.mp3" preload="auto" id="sndMusic"></audio>
+    <audio src="/sounds/shot.wav" preload="auto" id="sndShot"></audio>
+    <audio src="/sounds/gameover.mp3" preload="auto" id="sndGameOver"></audio>
+
+
+    <!-- SCRIPTs !-->
+    <script src="script/spaceShooter.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+body {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a:link { text-decoration: none;  color:#1edc0d;}
+a:visited { text-decoration: none; color:#1edc0d; }
+a:hover { text-decoration: none; color:#1edc0d; }
+a:active { text-decoration: none; color:#1edc0d; }
+
+.footer {
+    text-align: center;
+    color:#1edc0d;
+    font-size: 20px;
+    font-family: iceland, cursive;
+}
+
+.game-area {
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    background-image: url('../images/Universe.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1;
+    border: 5px solid #dc0d8d;
+}
+
+/***************************GAME DISPLAY********************/
+.gameDisplay {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    font-family: 'Iceland', cursive;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 500px;
+    height: 65px;
+    background-color: black;
+    opacity: 1;
+    top: 0px;
+}
+
+.points , .record {
+    position: relative;
+    color: #1edc0d;
+    width: 175px;
+    height: 50px;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+.record {
+    color: #dc0d8d;
+}
+
+.lives {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    color: #1edc0d;
+    width: 150px;
+    height: 50px;
+    padding: 0px 5px;
+}
+
+.life {
+    background-image: url(/images/ships/Ship1.png);
+    background-size: 100%;
+    height: 32px;
+    width: 32px;
+    transform: rotate(-90deg);
+}
+
+/***************************GAME MENU********************/
+.gameMenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Iceland', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    top: 10%;
+}
+
+.status {
+    position: relative;
+    width: 80%;
+    height: 100px;
+}
+
+.instructions {
+    position: relative;
+    margin-top: 10px;
+    width: 90%;
+    height: 100px;
+    font-size: 30px;
+}
+
+
+.btnStart {
+    position: relative;
+    width: 50%;
+    height: 50px;
+    padding-top: 0px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: black;
+    border-radius: 10px;
+    color: #dc0d8d;
+    font-family: 'Iceland', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    box-shadow: 0 2px 3px #222;
+    border: 2px solid #dc0d8d;
+    cursor: pointer;
+}
+
+.btnStart:active {
+    transform: translate(0, 3px);
+    box-shadow: none;
+}
+
+/***************************GAMEPLAY********************/
+.player {
+    background-image: url(/images/ships/Ship1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 64px;
+    width: 64px;
+    transform: rotate(-90deg);
+    top: 140px;
+    left: 220px;
+}
+
+.player-exaust {
+    background-image: url(/images/ships/exaust/exaust1.png);
+    position: relative;
+    height: 32px;
+    width: 32px;
+    /*transform: rotate(-90deg);*/
+    top: 17px;
+    left: -28px;
+}
+
+.explosion {
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 128px;
+    width: 128px;
+}
+
+.shot {
+    position: absolute;
+    transform: rotate(-90deg);
+    background-image: url(/images/shoots/shot1.png);
+    height: 32px;
+    width: 32px;
+    top: 480px;
+}
+
+.enemy {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 0px;
+}
