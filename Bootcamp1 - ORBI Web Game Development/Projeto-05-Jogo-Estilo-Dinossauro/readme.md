@@ -1,7 +1,7 @@
-![Logo](https://raw.githubusercontent.com/andersonalvesmartins/Repositorio-DIO/main/Bootcamp1%20-%20ORBI%20Web%20Game%20Development/Projeto-05-Jogo-Estilo-Dinossauro/images/Run Naruto Run.jpg)
+![Logo](https://raw.githubusercontent.com/andersonalvesmartins/Repositorio-DIO/main/Bootcamp1%20-%20ORBI%20Web%20Game%20Development/Projeto-05-Jogo-Estilo-Dinossauro/images/Run%20Naruto%20Run.jpg)
 
-### Game Estilo Dinossauro do Google Chrome Offline
 # Run Naruto, run 🎮
+### Game like Dinossaur game of Google Chrome Offline
 
 This project has an educative purpose and simulates the dinossaur game of Google Chrome when you're offline.
 The game consists to jump the 'akatsuki's members that appears randomly.
