@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="dino-game.js" defer></script> <!--The propertie defer indicates that the script will be loaded after the DOM-->
+    <title>RUN NARUTO RUN</title>
+</head>
+<body>
+    
+    <div class="gameArea" id="gameArea">
+        <div class="pointsDisplay" id="pointsDisplay"></div>
+        <div class="road" id="road"></div>
+        <div class="naruto narutoRun" id='naruto'></div> 
+    </div>
+    <div class="banner" id="banner">
+        <h1>
+        Pressione a tecla de espaço ou clique para iniciar/reiniciar <br>o jogo e também para pular os membros da Akatsuki.
+        <br><br>Quão longe você consegue ir Naruto-kun?
+        </h1>
+    </div>
+    <div class="footer" id="footer">
+        <h2><a href="https://www.linkedin.com/in/anderson-martins-8037a546/">@andersonalvesmartins</a><br></h2>
+        Esse jogo foi feito com o propósito de aprendizagem<br>
+        usando HTML5, CSS3 e Javascript durante o bootcamp ORBI<br>
+        Game Developer da Dogital Inovation One <a href="www.dio.me">DIO.</a><br>
+    </div>
+    
+
+    <!-- Sons do jogo !-->
+    <audio src="sounds/abertura.mp3" preload="auto" id="sndOpening"></audio>
+    <audio src="sounds/Naruto Theme   The Raising Fighting Spirit.mp3" preload="auto" id="sndGameplay"></audio>
+    <audio src="sounds/sadness-and-sorrow-original.mp3" preload="auto" id="sndGameOver"></audio>
+    <audio src="sounds/naruto jump sound effect.mp3" preload="auto" id="sndJump"></audio>
+    <audio src="sounds/naruto-kun.mp3" preload="auto" id="sndDied"></audio>
+    <audio src="sounds/record.mp3" preload="auto" id="sndRecord"></audio>
+</body>
+<footer>
+    
+</footer>
+</html>
