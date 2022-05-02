@@ -207,13 +207,12 @@ function gameOver(){
     //check if the player have the record and update it.
     if (points > record){
         record = points;
-        pointsDisplay.innerHTML = 'High Score: ' + record + ' | Score: 0';
     }
 
-    pointsDisplay.innerHTML = 'High Score: ' + record + ' | Score: 0<br>Aguarde...';
+    pointsDisplay.innerHTML = 'High Score: ' + record + ' | Score: ' + points + '<br>Aguarde...';
     playerCanPlay = false;
     setTimeout(() => {
-        pointsDisplay.innerHTML = 'High Score: ' + record + ' | Score: 0<br>Pressione ESPAÇO ou clique para reiniciar';
+        pointsDisplay.innerHTML = 'High Score: ' + record + ' | Score: ' + points + '<br>Pressione ESPAÇO ou clique para reiniciar';
         playerCanPlay = true;
     }, 2000);
 }

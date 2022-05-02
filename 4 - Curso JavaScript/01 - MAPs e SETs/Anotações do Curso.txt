@@ -1,0 +1,33 @@
+Curso de JavaScript - Digital Innovation One
+
+COLEÇÕES CHAVEADAS
+
+*****     MAPs     **********************************************************************
+Estrutura
+    const myMap = new Map()
+    - é uma coleção de arrays no formato chave e valor
+    - pode ser iterado por um loop for...of
+Métodos:
+    myMap.set('apple', 'fruit'); // Map(1) {"apple" => "fruit"}
+    myMap.get(apple) // retorna fruit
+    myMap.delete("apple") // retorna true
+    myMap.get(apple) // retorna UNDEFINED
+Diferença entre MAP e CHAVE
+    - MAP poder ter chave de qualquer tipo;
+    - tem a propriedade lenght;
+    - são mais fáceis de iterar;
+    - melhor utilizado quando o valor de uma chave é desconhecida;
+    - os valores do MAP tem o mesmo tipo.
+
+*****     SETs     **********************************************************************
+Estrutura
+    const myArray = [1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 2, 1];
+    const mySet = new Set(myArray) // myset terá apenas[1, 2, 3, 4, 5, 6, 7, 8]
+    - Armazena apenas valores únicos (não pode repetir)
+Métodos:
+    mySet.add(1); //add um item
+    mySet.has(1); // vê se tem o item 1 no Set e retorna true ou false
+    mySet.delete(1); // deleta o item 1
+Diferença entre SET e ARRAY
+    - em vez de lenght tem o método size
+    - tem um número limidado de métodos, comparados ao array que é mais flexivel.
