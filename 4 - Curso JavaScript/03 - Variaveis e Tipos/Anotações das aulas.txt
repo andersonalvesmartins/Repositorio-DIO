@@ -1,0 +1,31 @@
+VARIÁVEIS E TIPOS
+
+Boas Práticas
+    Camel Case  - nomeDaVariavel
+    Snake Case  - nome_da_variavel
+    Kebab Case  - nome-da-variavel
+    Pascal Case - NomeDaVariavel 
+    Upper Case Snake Case - NOME_DA_VARIAVEL (CONSTANTES ou FUNÇÕES)
+
+VARIÁVEIS:
+    - var escopo global
+    - let escopo de bloco
+    - Hoisting = atribuir um valor antes de declara-la.
+    - camelCase
+
+CONSTANTES
+    - SNAKE_UPPER_CASE
+    - Não faz Hoisting
+    - Escopo de bloco
+
+TIPOS
+    ESTRUTURAS DE DADOS:
+        -JS - Tipagem Dinâmica e Fraca;
+    
+    Tipos Primitivos:
+        -Numbers
+        -Strings - Textos ou frases
+        -Boolean
+    
+    Compostos / Não Primitivos:
+        -Objetos - chave valor

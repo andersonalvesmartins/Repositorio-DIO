@@ -1,0 +1,34 @@
+Sintaxe e Operadores
+
+  Operadores:
+    ATRIBUIÇÃO:
+    =   x=5   x=5
+    +=  x+=5  x=x+5
+    *=  x*=5  x=x*5
+    /=  x/=5  x=x/5
+    %=  x%=5  x=x%5
+
+    ARITMÉTICOS:
+    Além de + - * /
+    **  -> Exponencial
+    %   -> Módulo - Resto da divisão
+    ++  -> Incrementar
+    --  -> Decrementar
+
+    COMPARAÇÃO:
+    ==  ->  igual a;
+    === ->  mesmo valor e mesmo tipo;
+    !=  ->  diferente a;
+    !== ->  valor e tipo diferente;
+    além de > < >= <=
+
+    LÓGICA:
+    && -> e lógico;
+    || -> ou lógico;
+    !  -> não lógico;
+
+    CONDICIONAL (ternário) substitui o IF ELSE
+    (condição) ? expresão1 : expresão2
+    (condição) ? verdadeiro : falso
+    exemplo:
+    (i%2=0) ? console.log(i + ' é par!') : console.log(i + ' é impar!') 

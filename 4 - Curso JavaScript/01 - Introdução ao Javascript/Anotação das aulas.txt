@@ -1,0 +1,35 @@
+Introdução ao Javascript
+
+Historia Evolução e Aplicações:
+ - Primeira versão em 1997
+ - Linguagem Interpretada
+ - Baseada em Protótipos
+ - Multiparadigma
+ - Comumente utilizada em aplicações web client-side
+ - Segue o padrão ECMAScript (com grande evolução em 2015)
+ - Aplicações: Web, Mobile, Smartwatches, Games, IoT, APIs
+
+Recursos Basicos 
+  - Manipulando um arquivo Javascript
+    - comentários -> // ou /*comentário*/ ou seleciona o texto ctrl+/
+    - definição de variavel e constante 
+  - Funções - foi mostrado como declarar e como chama-las
+  
+Console  
+  - Executando um arquivo JS
+   - Foi mostrado como usar o console numa página Web para executar código.
+   - Foi mostrado também como instalar o NodeJS e como executar o código no terminal.
+
+Javascript em uma página Web
+  - Estrutura do projeto
+    - Mostrou a estrutura de um arquivo HTML.
+  - Inserindo Javascript numa página HTML
+    - Mostrou como ligar o arquivo HTML ao CSS e ao JS
+  - Interagindo com os elementos do DOM
+    - Mostrou a estrutura do DOM
+    - Mostrou o getElementById
+
+Colocando em Prática
+  - Criando um contador
+    - Criou uma página básica HTML com um número entre dois botões (+ e -). Ao clicar no + incrementa o número e no - decrementa.
+  

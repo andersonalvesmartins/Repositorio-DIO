@@ -1,5 +1,5 @@
 # Repositorio-DIO
-Repositório que será usado para os cursos e bootcamps da plataforma DIO.
+Repositório que será usado para os cursos e bootcamps da plataforma DIO. Contém projetos de portfólio.
 
 ## Organização
 Cada pasta se refere a um assunto chave. Dentro delas, estarão as pastas com cada aula do curso, com as anotações feitas durante o curso e/ou o projeto ensinado/sugerido.
