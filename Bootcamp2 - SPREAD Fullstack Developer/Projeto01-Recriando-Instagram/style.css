@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.IG-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.IG-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.IG-phone img{
+    height: 50rem;
+}
+
+.IG-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.IG-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.IG-group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.IG-logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.IG-login {
+    background-color: #0095FC;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.IG-logout {
+    color: #0095FC;
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(120, 120, 120);
+}
+
+.link-blue {
+    color: #0095FC;
+}
+
+.get-the-app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.icons-store {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url(./images/apple-button.png);
+}
+
+.app-download:nth-child(2) {
+    background-image: url(./images/googleplay-button.png);
+}
+
+/*MEDIA QUERIES - RESPONSIVIDADE*/
+@media (max-width: 1024px) {
+    .IG-container {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #fff;
+    }
+    .IG-container {
+        width: 90%; 
+    }
+    .IG-phone {
+        display: none;
+    }
+    .IG-continue{
+        width: 90%;
+    }
+    .IG-group {
+        border: 1px solid transparent;
+    }
+}
